@@ -44,7 +44,11 @@ Users should be able to:
 
 ### What I learned
 
-In this web design the intro section background image and the mobile mockup image is a 😕:confused: tough challenge for me. I tried many methods and a bunch of resources on the internet and then finally after all research :relaxed: and pensive thinking `position` and `z-index` property's takes the problem away. Developing this design cleared my all `position` related confusions.
+In this web design the intro section background image and the mobile mockup image is a :confused: tough challenge for me. I tried many methods and a bunch of resources on the internet and then finally after all research :relaxed: and pensive thinking :thinking: `position` and `z-index` property's takes the problem away. Developing this design cleared my all `position` related confusions.
+
+### Useful resources
+
+-[CSS position concept](https://css-tricks.com/almanac/properties/p/position/) - Please checkout this useful article on ```position``` property this cleared my all doubts of relative, absolute, fixed, sticky positions.
 
 ## Author
 
