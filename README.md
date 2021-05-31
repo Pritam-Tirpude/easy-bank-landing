@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Easy Bank Landing Page Solution](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP/hub/htmlcsssassjavascriptflexbox-7k8375yN6)
-- Live Site URL: [Easy Bank Site](https://blogr-landin-site.netlify.app/)
+- Solution URL: [Easy Bank Landing Page Solution](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN/hub/html5-css3-flex-javascript-sass-yt-aitQrX)
+- Live Site URL: [Easy Bank Site](https://easy-landing-site.netlify.app/)
 
 ## My process
 
