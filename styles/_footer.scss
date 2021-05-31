@@ -1,0 +1,102 @@
+.footer-container {
+  min-height: 50vh;
+  background: $primary_dark_blue;
+  @include flex(space-evenly, center, row);
+
+  .social-network {
+    @include flex(center, center, column);
+
+    .logo-footer {
+      align-self: flex-start;
+    }
+    .social-icons {
+      margin-top: 5rem;
+      .fab {
+        margin: 0rem 0.5rem;
+        color: $neutral_white;
+        &:hover {
+          transform: scale(1.1);
+          color: $primary_bright_cyan;
+        }
+      }
+    }
+  }
+
+  .contact-links ul {
+    @include flex(center, center, column);
+    list-style: none;
+
+    li {
+      align-self: flex-start;
+      margin: 1rem;
+    }
+
+    li a {
+      color: $neutral_white;
+      text-decoration: none;
+
+      &:hover {
+        transition: all 0.2s ease-in-out;
+        color: $primary_bright_cyan;
+      }
+    }
+  }
+
+  .service-links ul {
+    @include flex(center, center, column);
+    list-style: none;
+
+    li {
+      align-self: flex-start;
+      margin: 1rem;
+    }
+
+    li a {
+      color: $neutral_white;
+      text-decoration: none;
+
+      &:hover {
+        transition: all 0.2s ease-in-out;
+        color: $primary_bright_cyan;
+      }
+    }
+  }
+
+  .copyright {
+    @include flex(center, center, column);
+
+    button {
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 2rem;
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+      font-family: "Public Sans", sans-serif;
+      background: linear-gradient(
+        to right,
+        $primary_lime_green,
+        $primary_bright_cyan
+      );
+      color: $neutral_white;
+      font-weight: bold;
+      cursor: pointer;
+      align-self: flex-end;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        box-shadow: 0 5px 15px hsla(136, 65%, 51%, 5);
+        transform: scale(1.1);
+        background: linear-gradient(
+          to right,
+          $primary_bright_cyan,
+          $primary_lime_green
+        );
+      }
+    }
+
+    p {
+      margin-top: 2rem;
+      color: $neutral_grayish_blue;
+      font-size: $header5;
+    }
+  }
+}

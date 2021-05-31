@@ -1,0 +1,162 @@
+@import "global";
+@import "header";
+@import "main-container";
+@import "footer";
+
+.attribution {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.attribution a {
+  color: $primary_lime_green;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    .logo {
+      flex: 1;
+    }
+
+    .nav-links {
+      position: absolute;
+      left: 50%;
+      right: 0px;
+      top: 10vh;
+      height: 50vh;
+      background: $neutral_white;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+      transform: translateX(-50%);
+      visibility: hidden;
+      li > a {
+        color: $primary_dark_blue;
+      }
+    }
+
+    button {
+      display: none;
+    }
+
+    .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+  }
+
+  .intro-container {
+    background: url("../images/bg-intro-mobile.svg") no-repeat center/contain;
+    background-position-y: -100px;
+    @include flex(center, center, column);
+    flex-flow: column-reverse;
+    padding: 0rem 2rem;
+
+    br {
+      display: none;
+    }
+
+    .intro-text {
+      position: relative;
+      text-align: center;
+      top: 150px;
+      z-index: 6;
+    }
+
+    .intro-images .mockup {
+      top: -130px;
+      bottom: 0px;
+      right: 0px;
+      padding: 0rem 2rem;
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .bank-features {
+    padding: 5rem;
+
+    br {
+      display: none;
+    }
+    .question-easy {
+      text-align: center;
+    }
+
+    .bank-benefits {
+      @include flex(center, center, column);
+
+      .online-banking {
+        text-align: center;
+      }
+
+      .simple-budgeting {
+        text-align: center;
+        margin-top: 3rem;
+      }
+
+      .fast-onboarding {
+        text-align: center;
+        margin-top: 3rem;
+      }
+      .open-api {
+        text-align: center;
+        margin-top: 3rem;
+      }
+    }
+  }
+
+  .latest-articles {
+    padding: 5rem;
+
+    .article-heading {
+      text-align: center;
+    }
+
+    .articles-cards {
+      @include flex(center, center, column);
+    }
+  }
+
+  .footer-container {
+    @include flex(center, center, column);
+    padding: 5rem;
+
+    .social-network {
+      .logo-footer {
+        align-self: unset;
+      }
+
+      .social-icons {
+        margin-top: 3rem;
+      }
+    }
+
+    .contact-links ul {
+      margin-top: 2rem;
+
+      li {
+        align-self: unset;
+      }
+    }
+
+    .service-links ul {
+      margin-top: 2rem;
+
+      li {
+        align-self: unset;
+      }
+    }
+
+    .copyright {
+      margin-top: 2rem;
+
+      button {
+        align-self: center;
+      }
+    }
+  }
+}

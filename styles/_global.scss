@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$header1: 4rem;
+$header2: 3.5rem;
+$header3: 2.5rem;
+$header4: 2rem;
+$header5: 1.5rem;
+$header6: 1rem;
+
+$primary_dark_blue: hsl(233, 26%, 24%);
+$primary_lime_green: hsl(136, 65%, 51%);
+$primary_bright_cyan: hsl(192, 70%, 51%);
+
+$neutral_grayish_blue: hsl(233, 8%, 62%);
+$neutral_light_grayish_blue: hsl(220, 16%, 96%);
+$neutral_very_light_gray: hsl(0, 0%, 98%);
+$neutral_white: hsl(0, 0%, 100%);
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  font-size: 1.6rem;
+  font-family: "Public Sans", sans-serif;
+  overflow-x: hidden;
+}
