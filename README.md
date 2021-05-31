@@ -46,6 +46,8 @@ Users should be able to:
 
 In this web design the intro section background image and the mobile mockup image is a 😕:confused: tough challenge for me. I tried many methods and a bunch of resources on the internet and then finally after all research :relaxed: and pensive thinking `position` and `z-index` property's takes the problem away. Developing this design cleared my all `position` related confusions.
 
+### User
+
 ## Author
 
 - Frontend Mentor - [@Pritam-Tirpude](https://www.frontendmentor.io/profile/Pritam-Tirpude)
