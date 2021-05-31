@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Easy Bank Landing Page Solution](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP/hub/htmlcsssassjavascriptflexbox-7k8375yN6)
-- Live Site URL: [Easy Bank Site](https://blogr-landin-site.netlify.app/)
+- Solution URL: [Easy Bank Landing Page Solution](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN/hub/html5-css3-flex-javascript-sass-yt-aitQrX)
+- Live Site URL: [Easy Bank Site](https://easy-landing-site.netlify.app/)
 
 ## My process
 
@@ -44,7 +44,11 @@ Users should be able to:
 
 ### What I learned
 
-In this web design the intro section background image and the mobile mockup image is a 😕:confused: tough challenge for me. I tried many methods and a bunch of resources on the internet and then finally after all research :relaxed: and pensive thinking `position` and `z-index` property's takes the problem away. Developing this design cleared my all `position` related confusions.
+In this web design the intro section background image and the mobile mockup image is a :confused: tough challenge for me. I tried many methods and a bunch of resources on the internet and then finally after all research :relaxed: and pensive thinking :thinking: `position` and `z-index` property's takes the problem away. Developing this design cleared my all `position` related confusions.
+
+### Useful resources
+
+-[CSS position concept](https://css-tricks.com/almanac/properties/p/position/) - Please checkout this useful article on ```position``` property this cleared my all doubts of relative, absolute, fixed, sticky positions.
 
 ### User
 
