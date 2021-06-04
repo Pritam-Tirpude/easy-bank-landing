@@ -637,9 +637,14 @@ nav .hamburger {
         -ms-flex: 1;
             flex: 1;
   }
+  nav .nav-links.open {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
   nav .nav-links {
     position: absolute;
-    left: 50%;
+    left: 10%;
     right: 0px;
     top: 10vh;
     height: 50vh;
@@ -657,9 +662,11 @@ nav .hamburger {
         -ms-flex-align: center;
             align-items: center;
     width: 80%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    visibility: hidden;
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
   }
   nav .nav-links li > a {
     color: #2d314d;
